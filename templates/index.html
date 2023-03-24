@@ -26,7 +26,7 @@
   <link href="{{ url_for('static', filename= 'vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="{{ url_for('static', filename= 'css/style.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename= 'css/main.css') }}" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Impact
@@ -60,7 +60,7 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <!-- <img src="{{ url_for('static', filename= 'img/logo.png' ) }}" alt=""> -->
         <h1>Impact<span>.</span></h1>
       </a>
       <nav id="navbar" class="navbar">
@@ -208,14 +208,14 @@
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="{{ url_for('static', filename= '/img/clients/client-1.png' ) }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ url_for('static', filename= 'img/clients/client-1.png' ) }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ url_for('static', filename= 'img/clients/client-2.png' ) }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ url_for('static', filename= 'img/clients/client-3.png' ) }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ url_for('static', filename= 'img/clients/client-4.png' ) }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ url_for('static', filename= 'img/clients/client-5.png' ) }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ url_for('static', filename= 'img/clients/client-6.png' ) }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ url_for('static', filename= 'img/clients/client-7.png' ) }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ url_for('static', filename= 'img/clients/client-8.png' ) }}" class="img-fluid" alt=""></div>
           </div>
         </div>
 
@@ -229,7 +229,7 @@
         <div class="row gy-4 align-items-center">
 
           <div class="col-lg-6">
-            <img src="assets/img/stats-img.svg" alt="" class="img-fluid">
+            <img src="{{ url_for('static', filename= 'img/stats-img.svg' ) }}" alt="" class="img-fluid">
           </div>
 
           <div class="col-lg-6">
@@ -364,7 +364,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="{{ url_for('static', filename= 'img/testimonials/testimonials-1.jpg' ) }}" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Saul Goodman</h3>
                       <h4>Ceo &amp; Founder</h4>
@@ -386,7 +386,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="{{ url_for('static', filename= 'img/testimonials/testimonials-2.jpg' ) }}" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Sara Wilsson</h3>
                       <h4>Designer</h4>
@@ -408,7 +408,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="{{ url_for('static', filename= 'img/testimonials/testimonials-3.jpg' ) }}" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Jena Karlis</h3>
                       <h4>Store Owner</h4>
@@ -430,7 +430,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="{{ url_for('static', filename= 'img/testimonials/testimonials-4.jpg' ) }}" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>Matt Brandon</h3>
                       <h4>Freelancer</h4>
@@ -452,7 +452,7 @@
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <div class="d-flex align-items-center">
-                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
+                    <img src="{{ url_for('static', filename= 'img/testimonials/testimonials-5.jpg' ) }}" class="testimonial-img flex-shrink-0" alt="">
                     <div>
                       <h3>John Larson</h3>
                       <h4>Entrepreneur</h4>
@@ -502,7 +502,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt=""></a>
+                <a href="{{ url_for('static', filename= 'img/portfolio/app-1.jpg' ) }}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{{ url_for('static', filename= 'img/portfolio/app-1.jpg' ) }}" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">App 1</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -512,7 +512,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-product">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt=""></a>
+                <a href="{{ url_for('static', filename= 'img/portfolio/product-1.jpg' ) }}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{{ url_for('static', filename= 'img/portfolio/product-1.jpg' ) }}" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Product 1</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -522,7 +522,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt=""></a>
+                <a href="{{ url_for('static', filename= 'img/portfolio/branding-1.jpg' ) }}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{{ url_for('static', filename= 'img/portfolio/branding-1.jpg' ) }}" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Branding 1</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -532,7 +532,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-books">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt=""></a>
+                <a href="{{ url_for('static', filename= 'img/portfolio/books-1.jpg' ) }}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{{ url_for('static', filename= 'img/portfolio/books-1.jpg' ) }}" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Books 1</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -542,7 +542,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt=""></a>
+                <a href="{{ url_for('static', filename= 'img/portfolio/app-2.jpg' ) }}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{{ url_for('static', filename= 'img/portfolio/app-2.jpg' ) }}" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">App 2</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -552,7 +552,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-product">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""></a>
+                <a href="{{ url_for('static', filename= 'img/portfolio/product-2.jpg' ) }}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{{ url_for('static', filename= 'img/portfolio/product-2.jpg' ) }}" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Product 2</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -562,7 +562,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt=""></a>
+                <a href="{{ url_for('static', filename= 'img/portfolio/branding-2.jpg' ) }}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{{ url_for('static', filename= 'img/portfolio/branding-2.jpg' ) }}" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Branding 2</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -572,7 +572,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-books">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt=""></a>
+                <a href="{{ url_for('static', filename= 'img/portfolio/books-2.jpg' ) }}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{{ url_for('static', filename= 'img/portfolio/books-2.jpg' ) }}" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Books 2</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -582,7 +582,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt=""></a>
+                <a href="{{ url_for('static', filename= 'img/portfolio/app-3.jpg' ) }}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{{ url_for('static', filename= 'img/portfolio/app-3.jpg' ) }}" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">App 3</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -592,7 +592,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-product">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt=""></a>
+                <a href="{{ url_for('static', filename= 'img/portfolio/product-3.jpg' ) }}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{{ url_for('static', filename= 'img/portfolio/product-3.jpg' ) }}" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Product 3</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -602,7 +602,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt=""></a>
+                <a href="{{ url_for('static', filename= 'img/portfolio/branding-3.jpg' ) }}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{{ url_for('static', filename= 'img/portfolio/branding-3.jpg' ) }}" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Branding 3</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -612,7 +612,7 @@
 
             <div class="col-xl-4 col-md-6 portfolio-item filter-books">
               <div class="portfolio-wrap">
-                <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt=""></a>
+                <a href="{{ url_for('static', filename= 'img/portfolio/books-3.jpg' ) }}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="{{ url_for('static', filename= 'img/portfolio/books-3.jpg' ) }}" class="img-fluid" alt=""></a>
                 <div class="portfolio-info">
                   <h4><a href="portfolio-details.html" title="More Details">Books 3</a></h4>
                   <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -640,7 +640,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename= 'img/team/team-1.jpg' ) }}" class="img-fluid" alt="">
               <h4>Walter White</h4>
               <span>Web Development</span>
               <div class="social">
@@ -654,7 +654,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
-              <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename= 'img/team/team-2.jpg' ) }}" class="img-fluid" alt="">
               <h4>Sarah Jhinson</h4>
               <span>Marketing</span>
               <div class="social">
@@ -668,7 +668,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
-              <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename= 'img/team/team-3.jpg' ) }}" class="img-fluid" alt="">
               <h4>William Anderson</h4>
               <span>Content</span>
               <div class="social">
@@ -682,7 +682,7 @@
 
           <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
-              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename= 'img/team/team-4.jpg' ) }}" class="img-fluid" alt="">
               <h4>Amanda Jepson</h4>
               <span>Accountant</span>
               <div class="social">
@@ -882,7 +882,7 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+                <img src="{{ url_for('static', filename= 'img/blog/blog-1.jpg' ) }}" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Politics</p>
@@ -892,7 +892,7 @@
               </h2>
 
               <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+                <img src="{{ url_for('static', filename= 'img/blog/blog-author.jpg' ) }}" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
                   <p class="post-author">Maria Doe</p>
                   <p class="post-date">
@@ -908,7 +908,7 @@
             <article>
 
               <div class="post-img">
-                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+                <img src="{{ url_for('static', filename= 'img/blog/blog-2.jpg' ) }}" alt="" class="img-fluid">
               </div>
 
               <p class="post-category">Sports</p>
