@@ -57,23 +57,7 @@ def success():
 
        server.sendmail(sender, ['aldan.moldabekov@gmail.com'], msg.as_string())
        return redirect("/")
-
-# @app.route('/success', methods = ['GET','POST'])
-# def success():
-#     if request.method == 'POST':
-#        name = request.form.get("name")
-#        email = request.form.get("email")
-#        message = request.form.get("message")
     
-#        msg = Message(
-#                     'Вы получили заявку [ПМПК] ',
-#                     sender ='1155121354@link.cuhk.edu.hk',
-#                     recipients = ['aldan.moldabekov@gmail.com', 'pmpk2_astana@mail.ru' ]
-#                 ) 
-#        msg.body = 'Поступил заказ от:\nКлиент:' +name +'\nEmail:' +email +'\n'+'\n'+message
-#        mail.send(msg)
-
-#        return redirect('/')
     
 if __name__ == "__main__":
     app.run(debug=True, host='127.1.4.5')
