@@ -42,7 +42,7 @@ def downloadFile3():
 def success():
     if request.method == 'POST':
        sender = "salomat423@gmail.com"
-       password = "221502Ernur@"
+       password = ""
        server = smtplib.SMTP("smtp.office365.com", 587)
        server.starttls()
     
