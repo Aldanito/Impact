@@ -11,7 +11,7 @@ app.config['MAIL_SERVER']='smtp.office365.com'
 app.config['MAIL_PORT'] = 587
 # 587    43      465
 app.config['MAIL_USERNAME'] = '1155121354@link.cuhk.edu.hk'  
-app.config['MAIL_PASSWORD'] = 'Wuk2c8$gBqFJh=9'
+app.config['MAIL_PASSWORD'] = ''
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 @app.route('/')
@@ -42,7 +42,7 @@ def downloadFile3():
 def success():
     if request.method == 'POST':
        sender = "salomat423@gmail.com"
-       password = "221502Ernur@"
+       password = ""
        server = smtplib.SMTP("smtp.office365.com", 587)
        server.starttls()
     
